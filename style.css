@@ -1,38 +1,122 @@
-h1 {
-color : purple;
-font-size: 40px;
-background: pink;	
-font-family: 'Julius Sans One', sans-serif;
-}
-h2, h3, h4 {
-font-size: 25px;
-background: pink;
-font-family: arial;	
-}
-p, ul, ol, {
-font-size: 20px;	
-}
+
+
 body {
-background: pink;	
+  background: black;
+  text-align: center;
+  font-family: arial;
 }
-p {
-text-align: center;	
+
+h1 {
+color : white;
+font-size: 40px;
+background: black;	
+font-family: 'Julius Sans One', sans-serif;
+position: center; 
 }
+
+h2, h3, h4 {
+  font-family: 'Julius Sans One', cursive;
+  font-size: 28px;
+  color: white;
+}
+
 img {
-object-fit: cover;	
-}
-a:hover {
-color: brown;	
-}
-div {
-background: lightgreen;
-}
-img {
-  width: 300px;
-  height: 200px;
-  object-fit: cover;
-}
-.avatar {
   width: 300px;
   height: 300px;
   object-fit: cover;
+}
+
+h4, ul, ol {
+  text-align: left;
+  color: white;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+p, ul, ol {
+  font-size: 20px;
+  color: white;
+}
+
+.début {
+border: 5px solid white;
+border-radius: 10px;
+box-shadow: 10px 10px 10px grey;
+color: white;
+}
+.maps {
+border: 5px solid white;
+box-shadow: 10px 10px 10px grey;
+width: 400px;
+}
+
+
+.logo {
+  height: 60px;
+  margin: 5px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+}
+
+.line-light {
+  height: 50px;
+  width: 20%;
+  background: #EE9CA7;
+}
+
+.line-medium {
+  height: 50px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+  height: 50px;
+  width: 50%;
+  background: #9F3442;
+}
+
+.indicates-required {
+color: white;
+}
+
+.mce-EMAIL {
+color: white;
+}
+
+.mc-field-group {
+color: white;
+}
+
+
+
+
+
+
+
