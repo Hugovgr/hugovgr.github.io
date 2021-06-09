@@ -1,0 +1,38 @@
+h1 {
+color : purple;
+font-size: 40px;
+background: pink;	
+font-family: 'Julius Sans One', sans-serif;
+}
+h2, h3, h4 {
+font-size: 25px;
+background: pink;
+font-family: arial;	
+}
+p, ul, ol, {
+font-size: 20px;	
+}
+body {
+background: pink;	
+}
+p {
+text-align: center;	
+}
+img {
+object-fit: cover;	
+}
+a:hover {
+color: brown;	
+}
+div {
+background: lightgreen;
+}
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+.avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
